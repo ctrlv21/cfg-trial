@@ -1,0 +1,98 @@
+.container-fluid {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.navbar {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 0;
+  background-color: #DCDCE4;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
+}
+.navbar-nav  li a:hover {
+  color: #1abc9c !important;
+
+}
+
+.navbar-brand{
+  font-size: 20px;
+}
+
+.login-container {
+  padding: 30px;
+}
+
+.row {
+  font-size: large;
+}
+
+.card-word {
+  font-style: italic;
+}
+
+.signup-container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+
+.card-body{
+  text-align: center;
+  border-style: groove;
+  padding: 10px;
+  margin: 10px;
+}
+
+.login-title, .signup-title, .navbar-brand{
+  font-family: 'Lobster', cursive; 
+}
+
+
+.compose {
+
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: #A6C4CE;
+  color: #fff;
+  font-size: 25px;
+  transition: transform .2s;
+}
+
+.back{
+  border-color: transparent;
+  background-color: #A6C4CE;
+  color: #fff;
+  transition: transform .2s;
+}
+
+.back:hover{
+  transform: scale(1.25);
+}
+
+.compose:hover{
+  transform: scale(1.25);
+}
+
+.footer-padding {
+padding-bottom: 60px;
+}
+
+.footer {
+position: absolute;
+text-align: center;
+bottom: 0;
+width: 100%;
+height: 60px;
+background-color: #6C66C7;
+}
+
+.footer p {
+margin-top: 25px;
+font-size: 12px;
+color: #fff;
+}
